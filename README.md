@@ -6,7 +6,7 @@ A responsive portfolio built with React, Vite, Tailwind CSS and a custom neumorp
 
 - React + Vite
 - React Router for client-side page navigation
-- Tailwind CSS 4 + custom neumorphic CSS tokens
+- Tailwind CSS 4 via the Vite plugin, with inline utility styling, CSS-first font tokens and a custom neumorphic design
 - Framer Motion for restrained reveal transitions
 - Lucide React icons
 - Resend Node.js SDK for transactional email
@@ -53,7 +53,7 @@ npm run preview
 - `src/hooks/` — reusable React hooks, including theme persistence
 - `src/services/` — API integration for the contact form
 - `src/App.jsx` — route definitions
-- `src/index.css` — theme tokens, neumorphic styling and responsive layout
+- `src/index.css` — Tailwind import and font tokens; component styles and responsive rules use Tailwind utilities in JSX
 - `server/contact-service.js` — shared validation and Resend email logic
 - `api/contact.js` — production Vercel endpoint
 - `server/dev-server.js` — local API endpoint
