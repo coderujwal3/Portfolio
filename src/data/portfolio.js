@@ -5,7 +5,7 @@ import {
 export const skills = [
   {
     icon: Code2, title: 'Frontend engineering', subtitle: 'Interfaces that feel considered',
-    items: ['HTML5', 'CSS3', 'JavaScript', 'React', 'Tailwind CSS', 'React Native', 'Vite', 'Three.js / R3F', 'GSAP'],
+    items: ['HTML5', 'CSS3', 'JavaScript', 'React', 'Tailwind CSS', 'React Native', 'Vite', 'Three.js / R3F', 'GSAP', 'Framer Motion', 'Figma'],
   },
   {
     icon: Database, title: 'Backend & data', subtitle: 'APIs, data models and integrations',
