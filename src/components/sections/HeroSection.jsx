@@ -117,7 +117,7 @@ export default function HeroSection() {
               initial={{ y: 0 }}
               animate={{ y: [0, -10, 0] }}
               transition={{
-                duration: 10,
+                duration: 6,
                 delay: 0.2,
                 ease: "easeInOut",
                 repeat: Infinity,
