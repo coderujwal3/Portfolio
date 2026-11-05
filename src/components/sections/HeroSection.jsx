@@ -24,7 +24,11 @@ export default function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          <span className="inline-block h-1.75 w-1.75 shrink-0 rounded-full bg-[#43b59e] shadow-[0_0_0_4px_rgba(67,181,158,0.12)]" />{" "}
+          <motion.div 
+            initial={{ background: "#000" }}
+            animate={{ background: "#43b59e" }}
+            transition={{ duration: 1, repeat: Infinity, ease: "easeInOut" }}
+          className="inline-block h-1.75 w-1.75 shrink-0 bg-[#43b59e] rounded-full shadow-[0_0_0_4px_rgba(67,181,158,0.12)]">{" "} </motion.div>
           Learning, Building & Deploying
         </motion.div>
         <motion.p
@@ -113,19 +117,11 @@ export default function HeroSection() {
           </div>
           <div className="relative grid min-h-72.5 place-items-center max-[1000px]:min-h-62.5 max-[420px]:min-h-56.25">
             <div className="absolute h-52.5 w-52.25 rounded-full bg-[radial-gradient(circle,rgba(94,111,225,0.16),rgba(56,169,151,0.08)_48%,transparent_72%)] blur-md" />
-            <motion.div
-              initial={{ y: 0 }}
-              animate={{ y: [0, -10, 0] }}
-              transition={{
-                duration: 6,
-                delay: 0.2,
-                ease: "easeInOut",
-                repeat: Infinity,
-              }}
+            <div
               className="relative grid h-40 w-40 -rotate-6 place-items-center rounded-[48px] bg-[var(--surface)] text-[53px] font-extrabold tracking-[-0.11em] text-[var(--accent)] shadow-[var(--shadow-out)] after:absolute after:inset-3 after:rounded-[38px] after:border after:border-[var(--line)] after:content-[''] dark:text-[#a0acff] max-[1000px]:h-[140px] max-[1000px]:w-[140px] max-[1000px]:text-[46px] max-[420px]:h-[125px] max-[420px]:w-[125px] max-[420px]:rounded-[40px] max-[420px]:text-[40px] max-[420px]:after:inset-[9px] max-[420px]:after:rounded-[32px]"
             >
               US <span className="text-3xl mb-3 text-right w-full">↗</span>
-            </motion.div>
+            </div>
             <div className="absolute top-[62px] left-[54px] grid h-12 w-12 rotate-[-8deg] place-items-center rounded-[15px] bg-[var(--surface)] text-[var(--accent)] shadow-[var(--shadow-soft)] max-[1000px]:top-[46px] max-[1000px]:left-8 max-[420px]:top-[35px] max-[420px]:left-[25px] max-[420px]:h-[41px] max-[420px]:w-[41px] max-[420px]:rounded-[13px]">
               <BrainCircuit size={20} />
             </div>
