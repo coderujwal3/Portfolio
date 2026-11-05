@@ -26,7 +26,7 @@ export const projects = [
     number: '01', category: 'AI + SECURITY', title: 'ScamSentry AI',
     description: 'A Python CLI that inspects suspicious text and URLs using deterministic signals, explains social-engineering indicators, validates AI interpretations, and assigns an explainable risk band.',
     tags: ['Python', 'Security', 'LLM output validation', 'CLI'],
-    url: 'https://github.com/coderujwal3/GDG-x-CMP---MLH-Hackday',
+    url: 'https://github.com/coderujwal3/ScamSentry-AI',
     icon: ScanSearch, featured: true, status: 'Hackday build',
   },
   {
@@ -65,7 +65,7 @@ export const projects = [
 
 export const experience = [
   {
-    kind: 'INTERNSHIP PROGRAM', title: 'Cyber Security & Ethical Hacking', org: 'Edureka', date: 'Completed',
+    kind: 'INTERNSHIP PROGRAM', title: 'Cyber Security & Ethical Hacking', org: 'Edureka', date: 'Mar 2025 - Aug 2025',
     points: [
       'Completed a structured cyber security and ethical hacking internship program.',
       'Worked through security concepts and practical, lab-based exercises in controlled environments.',
@@ -73,25 +73,33 @@ export const experience = [
     ],
   },
   {
-    kind: 'VIRTUAL INTERNSHIP', title: 'Web Development', org: 'CodSoft', date: '25 Aug – 25 Sep 2024',
+    kind: 'INTERNSHIP', title: 'Data Scientist & Gen AI', org: 'Syskriti Pvt. Ltd.', date: 'Feb 2026 - Aug 2026',
     points: [
-      'Built frontend practice projects using HTML, CSS and JavaScript.',
-      'Implemented a portfolio page and a calculator with visual styling experiments.',
-      'Practised component structure, interaction states and responsive layout fundamentals.',
+      'Completed a structured cyber security and ethical hacking internship program.',
+      'Worked through security concepts and practical, lab-based exercises in controlled environments.',
+      'Completed the capstone project: “Ethically Hacking an E-Commerce Website”.',
     ],
   },
   {
-    kind: 'PROJECT-BASED EXPERIENCE', title: 'Virtual programs & freelance work', org: 'Bharat Intern · DevTown · Freelancer.com', date: 'Project-based',
+    kind: 'INTERNSHIP PROGRAM', title: 'Full Stack Web Developer', org: 'Edureka', date: 'Jun 2023 - Mar 2024',
     points: [
-      'Built and iterated on web-development projects while continuing independent learning.',
-      'Practise turning requirements into working UI, API integrations and small developer tools.',
-      'Keep project work version-controlled and presentable through GitHub.',
+      'Completed a structured cyber security and ethical hacking internship program.',
+      'Worked through security concepts and practical, lab-based exercises in controlled environments.',
+      'Completed the capstone project: “Ethically Hacking an E-Commerce Website”.',
+    ],
+  },
+  {
+    kind: 'Offline Training', title: 'CyberOps Associate', org: 'CISCO', date: 'Sept 2026 - Nov 2026',
+    points: [
+      "Completed a structured path for cyberOps associate training, covering security concepts, network monitoring, and incident response.",
+      "Gained practical experience through hands-on labs and exercises in a controlled environment.",
+      "Successfully completed the training program and earned the CyberOps Associate certification.",
     ],
   },
 ];
 
 export const credentials = [
   { icon: ShieldCheck, name: 'Cyber Security and Ethical Hacking Internship Program', issuer: 'Edureka', note: 'Completion certificate · E-commerce security capstone' },
-  { icon: Code2, name: 'Mastering in Fundamentals in JavaScript', issuer: 'Geekster', note: 'JavaScript foundations' },
-  { icon: Laptop, name: 'Web Development Virtual Internship', issuer: 'CodSoft', note: 'Project-based learning · Aug–Sep 2024' },
+  { icon: Code2, name: 'Python Professional with Grade A', issuer: 'Edureka', note: 'Expert in writing scripts using Python Programming Language' },
+  { icon: Laptop, name: 'CyberOps Associate', issuer: 'CISCO', note: 'Proficient in cyber security operations, network monitoring, and incident response' },
 ];

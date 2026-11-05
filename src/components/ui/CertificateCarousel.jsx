@@ -29,6 +29,7 @@ const certificateTitles = {
   "THM-AOC-2025": "THM AOC 2025 Certificate",
   "Techkriti2.0_BestCorrdinator": "Techkriti 2.0 · Best Coordinator",
   banarasgiri_4_0: "Banarasgiri 4.0 · Volunteer",
+  CyberOps_Associate_certificate: "CyberOps Associate Certificate",
 };
 
 const certificates = Object.entries(certificateFiles)
