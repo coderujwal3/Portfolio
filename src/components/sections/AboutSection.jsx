@@ -46,39 +46,39 @@ export default function AboutSection() {
                 and how to make it safer.
               </p>
             </div>
-            <div className="overflow-hidden md:w-[30%] rounded-full hover:shadow-[0_10px_20px_rgba(0,0,0,0.86)] hover:-translate-y-2 hover:transform-content transition-all duration-300 ease-in-out max-[720px]:w-[40%] max-[420px]:w-[60%]">
+            <div className="overflow-hidden md:w-[30%] rounded-full shadow-[0_5px_10px_rgba(0,0,0,0.86)] hover:shadow-[0_10px_20px_rgba(0,0,0,0.86)] hover:-translate-y-2 hover:transform-content transition-all duration-300 ease-in-out max-[720px]:w-[40%] max-[420px]:w-[60%] border-t-2 border-(--accent)">
               <img src={ujwal_Pic} alt="my image" />
             </div>
           </div>
-          <div className="mt-7 flex flex-wrap justify-between gap-3 border-t border-[var(--line)] pt-[21px] [&>div]:flex [&>div]:items-center [&>div]:gap-[10px] max-[720px]:justify-start max-[720px]:[&>div]:min-w-[42%] max-[420px]:flex-col">
+          <div className="mt-7 flex flex-wrap justify-between gap-3 border-t border-(--line) pt-[21px] [&>div]:flex [&>div]:items-center [&>div]:gap-[10px] max-[720px]:justify-start max-[720px]:[&>div]:min-w-[42%] max-[420px]:flex-col">
             <div>
-              <span className="grid h-[37px] w-[37px] place-items-center rounded-xl bg-[var(--surface)] text-[var(--accent)] shadow-[var(--shadow-soft)]">
-                <GraduationCap size={17} />
+              <span className="grid h-9.25 w-9.25 place-items-center rounded-xl bg-(--surface) text-(--accent) shadow-(--shadow-soft)">
+                <GraduationCap size={17} className="animate-pulse" />
               </span>
               <span>
-                <small className="mb-1 block font-dm-mono text-[7px] tracking-[0.1em] text-[var(--muted)]">
+                <small className="mb-1 block font-dm-mono text-[7px] tracking-widest text-(--muted)">
                   EDUCATION
                 </small>
                 <strong className="text-[10px]">B.Tech · AI & ML</strong>
               </span>
             </div>
             <div>
-              <span className="grid h-[37px] w-[37px] place-items-center rounded-xl bg-[var(--surface)] text-[var(--accent)] shadow-[var(--shadow-soft)]">
-                <MapPin size={17} />
+              <span className="grid h-9.25 w-9.25 place-items-center rounded-xl bg-(--surface) text-(--accent) shadow-(--shadow-soft)">
+                <MapPin size={17} className="animate-bounce" />
               </span>
               <span>
-                <small className="mb-1 block font-dm-mono text-[7px] tracking-[0.1em] text-[var(--muted)]">
+                <small className="mb-1 block font-dm-mono text-[7px] tracking-widest text-(--muted)">
                   LOCATION
                 </small>
                 <strong className="text-[10px]">Varanasi, India</strong>
               </span>
             </div>
             <div>
-              <span className="grid h-[37px] w-[37px] place-items-center rounded-xl bg-[var(--surface)] text-[var(--accent)] shadow-[var(--shadow-soft)]">
-                <Rocket size={17} />
+              <span className="grid h-9.25 w-9.25 place-items-center rounded-xl bg-(--surface) text-(--accent) shadow-(--shadow-soft)">
+                <Rocket size={17} className="animate-pulse" />
               </span>
               <span>
-                <small className="mb-1 block font-dm-mono text-[7px] tracking-[0.1em] text-[var(--muted)]">
+                <small className="mb-1 block font-dm-mono text-[7px] tracking-widest text-(--muted)">
                   APPROACH
                 </small>
                 <strong className="text-[10px]">Learn by shipping</strong>
@@ -87,7 +87,7 @@ export default function AboutSection() {
           </div>
         </NeoCard>
 
-        <div className="flex w-full justify-evenly flex-row gap-3.25 max-[720px]:gap-2.25 flex-wrap">
+        <div className="flex w-full justify-center flex-row gap-3.25 max-[720px]:gap-2.25 flex-wrap">
           <NeoCard className="p-[20px_21px_16px] max-[720px]:p-[14px_12px]">
             <div className="mb-3.25 grid h-9 w-9 place-items-center rounded-xl text-(--accent) shadow-(--shadow-soft) max-[720px]:h-8 max-[720px]:w-8 max-[720px]:rounded-[11px]">
               <Code2 size={19} />

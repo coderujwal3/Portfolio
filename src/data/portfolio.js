@@ -80,18 +80,6 @@ export const skills = [
 export const projects = [
   {
     number: "01",
-    category: "AI + SECURITY",
-    title: "ScamSentry AI",
-    description:
-      "A Python CLI that inspects suspicious text and URLs using deterministic signals, explains social-engineering indicators, validates AI interpretations, and assigns an explainable risk band.",
-    tags: ["Python", "Security", "LLM output validation", "CLI"],
-    url: "https://github.com/coderujwal3/ScamSentry-AI",
-    icon: ScanSearch,
-    featured: true,
-    status: "Hackday build",
-  },
-  {
-    number: "02",
     category: "DIGITAL FORENSICS",
     title: "Image-Forensic",
     description:
@@ -103,7 +91,7 @@ export const projects = [
     status: "Open source",
   },
   {
-    number: "03",
+    number: "02",
     category: "DEVELOPER TOOLS",
     title: "Phoenix Shell",
     description:
@@ -113,6 +101,18 @@ export const projects = [
     icon: Terminal,
     featured: true,
     status: "Project",
+  },
+  {
+    number: "03",
+    category: "AI + SECURITY",
+    title: "ScamSentry AI",
+    description:
+      "A Python CLI that inspects suspicious text and URLs using deterministic signals, explains social-engineering indicators, validates AI interpretations, and assigns an explainable risk band.",
+    tags: ["Python", "Security", "LLM output validation", "CLI"],
+    url: "https://github.com/coderujwal3/ScamSentry-AI",
+    icon: ScanSearch,
+    featured: true,
+    status: "Hackday build",
   },
   {
     number: "04",

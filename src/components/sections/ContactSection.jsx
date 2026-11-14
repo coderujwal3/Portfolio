@@ -58,7 +58,7 @@ export default function ContactSection() {
     <section className="relative z-[1] mx-auto grid w-[min(1120px,calc(100%-72px))] grid-cols-[0.9fr_1.1fr] items-start gap-[clamp(30px,5vw,72px)] pt-[100px] pb-[100px] max-[1000px]:w-[min(100%-54px,900px)] max-[720px]:w-[calc(100%-36px)] max-[720px]:grid-cols-1 max-[720px]:gap-[31px] max-[720px]:pt-16 max-[720px]:pb-[70px] max-[420px]:w-[calc(100%-28px)]">
       <div className="pt-4 max-[720px]:pt-0">
         <p className="m-0 flex items-center gap-[10px] font-dm-mono text-[9px] font-medium uppercase tracking-[0.16em] text-[var(--accent)]">
-          <span className="inline-block h-[7px] w-[7px] shrink-0 rounded-full bg-[#43b59e] shadow-[0_0_0_4px_rgba(67,181,158,0.12)]" />{" "}
+          <span className="inline-block h-[7px] w-[7px] shrink-0 rounded-full bg-[#43b59e] shadow-[0_0_0_4px_rgba(67,181,158,0.12)] animate-pulse" />{" "}
           OPEN TO GOOD CONVERSATIONS
         </p>
         <h2 className="mt-[21px] mb-[17px] max-w-[470px] text-[clamp(34px,4vw,48px)] leading-[1.13] tracking-[-0.065em] max-[720px]:max-w-[550px] max-[720px]:text-[40px]">
@@ -122,23 +122,23 @@ export default function ContactSection() {
       <NeoCard className="p-[29px] max-[720px]:px-[18px] max-[720px]:py-[22px]">
         <div className="mb-[26px] flex items-start justify-between gap-5">
           <div>
-            <p className="m-0 font-dm-mono text-[9px] font-medium uppercase tracking-[0.16em] text-[var(--accent)]">
+            <p className="m-0 font-dm-mono text-[9px] font-medium uppercase tracking-[0.16em] text-(--accent)">
               SEND A MESSAGE
             </p>
             <h3 className="mt-2 mb-0 text-xl tracking-[-0.045em]">
               Let’s make something useful.
             </h3>
           </div>
-          <span className="grid h-10 w-10 place-items-center rounded-[13px] text-[var(--accent)] shadow-[var(--shadow-soft)]">
-            <MessageCircleMore size={18} />
+          <span className="grid h-10 w-10 place-items-center rounded-[13px] text-(--accent) shadow-(--shadow-soft)">
+            <MessageCircleMore size={18} className="md:animate-bounce" />
           </span>
         </div>
         <form className="flex flex-col gap-[15px]" onSubmit={submitForm}>
           <div className="grid grid-cols-2 gap-[13px] max-[720px]:grid-cols-1">
-            <label className="flex flex-col gap-[7px] text-[9px] font-extrabold text-[var(--muted)]">
+            <label className="flex flex-col gap-[7px] text-[9px] font-extrabold text-(--muted)">
               Your name
               <input
-                className="w-full rounded-[11px] border border-transparent bg-[var(--surface)] px-[13px] py-[13px] text-[10px] font-medium leading-[1.6] text-[var(--text)] shadow-[var(--shadow-in)] outline-none transition-[border-color,box-shadow] duration-200 placeholder:text-[color-mix(in_srgb,var(--muted)_74%,transparent)] focus:border-[color-mix(in_srgb,var(--accent)_40%,transparent)] focus:shadow-[inset_3px_3px_7px_color-mix(in_srgb,var(--text)_8%,transparent),0_0_0_3px_color-mix(in_srgb,var(--accent)_12%,transparent)]"
+                className="w-full rounded-[11px] border border-transparent bg-(--surface) px-[13px] py-[13px] text-[10px] font-medium leading-[1.6] text-(--text) shadow-(--shadow-in) outline-none transition-[border-color,box-shadow] duration-200 placeholder:text-[color-mix(in_srgb,var(--muted)_74%,transparent)] focus:border-[color-mix(in_srgb,var(--accent)_40%,transparent)] focus:shadow-[inset_3px_3px_7px_color-mix(in_srgb,var(--text)_8%,transparent),0_0_0_3px_color-mix(in_srgb,var(--accent)_12%,transparent)]"
                 name="name"
                 value={form.name}
                 onChange={updateForm}
@@ -148,10 +148,10 @@ export default function ContactSection() {
                 required
               />
             </label>
-            <label className="flex flex-col gap-[7px] text-[9px] font-extrabold text-[var(--muted)]">
+            <label className="flex flex-col gap-[7px] text-[9px] font-extrabold text-(--muted)">
               Email address
               <input
-                className="w-full rounded-[11px] border border-transparent bg-[var(--surface)] px-[13px] py-[13px] text-[10px] font-medium leading-[1.6] text-[var(--text)] shadow-[var(--shadow-in)] outline-none transition-[border-color,box-shadow] duration-200 placeholder:text-[color-mix(in_srgb,var(--muted)_74%,transparent)] focus:border-[color-mix(in_srgb,var(--accent)_40%,transparent)] focus:shadow-[inset_3px_3px_7px_color-mix(in_srgb,var(--text)_8%,transparent),0_0_0_3px_color-mix(in_srgb,var(--accent)_12%,transparent)]"
+                className="w-full rounded-[11px] border border-transparent bg-(--surface) px-[13px] py-[13px] text-[10px] font-medium leading-[1.6] text-(--text) shadow-(--shadow-in) outline-none transition-[border-color,box-shadow] duration-200 placeholder:text-[color-mix(in_srgb,var(--muted)_74%,transparent)] focus:border-[color-mix(in_srgb,var(--accent)_40%,transparent)] focus:shadow-[inset_3px_3px_7px_color-mix(in_srgb,var(--text)_8%,transparent),0_0_0_3px_color-mix(in_srgb,var(--accent)_12%,transparent)]"
                 name="email"
                 type="email"
                 value={form.email}
@@ -163,10 +163,10 @@ export default function ContactSection() {
               />
             </label>
           </div>
-          <label className="flex flex-col gap-[7px] text-[9px] font-extrabold text-[var(--muted)]">
+          <label className="flex flex-col gap-[7px] text-[9px] font-extrabold text-(--muted)">
             Subject
             <input
-              className="w-full rounded-[11px] border border-transparent bg-[var(--surface)] px-[13px] py-[13px] text-[10px] font-medium leading-[1.6] text-[var(--text)] shadow-[var(--shadow-in)] outline-none transition-[border-color,box-shadow] duration-200 placeholder:text-[color-mix(in_srgb,var(--muted)_74%,transparent)] focus:border-[color-mix(in_srgb,var(--accent)_40%,transparent)] focus:shadow-[inset_3px_3px_7px_color-mix(in_srgb,var(--text)_8%,transparent),0_0_0_3px_color-mix(in_srgb,var(--accent)_12%,transparent)]"
+              className="w-full rounded-[11px] border border-transparent bg-(--surface) px-[13px] py-[13px] text-[10px] font-medium leading-[1.6] text-(--text) shadow-(--shadow-in) outline-none transition-[border-color,box-shadow] duration-200 placeholder:text-[color-mix(in_srgb,var(--muted)_74%,transparent)] focus:border-[color-mix(in_srgb,var(--accent)_40%,transparent)] focus:shadow-[inset_3px_3px_7px_color-mix(in_srgb,var(--text)_8%,transparent),0_0_0_3px_color-mix(in_srgb,var(--accent)_12%,transparent)]"
               name="subject"
               value={form.subject}
               onChange={updateForm}
@@ -175,10 +175,10 @@ export default function ContactSection() {
               required
             />
           </label>
-          <label className="flex flex-col gap-[7px] text-[9px] font-extrabold text-[var(--muted)]">
+          <label className="flex flex-col gap-[7px] text-[9px] font-extrabold text-(--muted)">
             Your message
             <textarea
-              className="min-h-30.5 w-full resize-y rounded-[11px] border border-transparent bg-[var(--surface)] px-[13px] py-[13px] text-[10px] font-medium leading-[1.6] text-[var(--text)] shadow-[var(--shadow-in)] outline-none transition-[border-color,box-shadow] duration-200 placeholder:text-[color-mix(in_srgb,var(--muted)_74%,transparent)] focus:border-[color-mix(in_srgb,var(--accent)_40%,transparent)] focus:shadow-[inset_3px_3px_7px_color-mix(in_srgb,var(--text)_8%,transparent),0_0_0_3px_color-mix(in_srgb,var(--accent)_12%,transparent)]"
+              className="min-h-30.5 w-full resize-y rounded-[11px] border border-transparent bg-(--surface) px-[13px] py-[13px] text-[10px] font-medium leading-[1.6] text-(--text) shadow-(--shadow-in) outline-none transition-[border-color,box-shadow] duration-200 placeholder:text-[color-mix(in_srgb,var(--muted)_74%,transparent)] focus:border-[color-mix(in_srgb,var(--accent)_40%,transparent)] focus:shadow-[inset_3px_3px_7px_color-mix(in_srgb,var(--text)_8%,transparent),0_0_0_3px_color-mix(in_srgb,var(--accent)_12%,transparent)]"
               name="message"
               value={form.message}
               onChange={updateForm}
