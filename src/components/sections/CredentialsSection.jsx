@@ -8,6 +8,7 @@ export default function CredentialsSection() {
     <section className="relative z-1 mx-auto w-[min(1120px,calc(100%-72px))] pt-[74px] pb-[50px] max-[1000px]:w-[min(100%-54px,900px)] max-[720px]:w-[calc(100%-36px)] max-[720px]:pt-[54px] max-[720px]:pb-[35px] max-[420px]:w-[calc(100%-28px)]">
       <SectionHeading
         index="05"
+        level={2}
         eyebrow="COURSES & CREDENTIALS"
         title="Learning with intention."
         description="A few programs and certificates that shaped the fundamentals behind my project work."
