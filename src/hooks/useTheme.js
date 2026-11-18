@@ -1,14 +1,20 @@
 import { useEffect, useState } from 'react';
 
 export function useTheme() {
-  const [dark, setDark] = useState(() => (
-    typeof window !== 'undefined' && window.localStorage.getItem('ujwal-theme') === 'dark'
-  ));
+  const [dark, setDark] = useState(false);
+  const [themeLoaded, setThemeLoaded] = useState(false);
 
   useEffect(() => {
+    setDark(window.localStorage.getItem('ujwal-theme') === 'dark');
+    setThemeLoaded(true);
+  }, []);
+
+  useEffect(() => {
+    if (!themeLoaded) return;
+
     document.documentElement.classList.toggle('dark', dark);
     window.localStorage.setItem('ujwal-theme', dark ? 'dark' : 'light');
-  }, [dark]);
+  }, [dark, themeLoaded]);
 
   return [dark, setDark];
 }

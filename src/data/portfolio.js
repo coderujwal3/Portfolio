@@ -151,7 +151,7 @@ export const projects = [
       "opencv",
       "Tkinter",
     ],
-    url: "https://github.com/coderujwal3/Attendance_Management_System_Using_Face_Recognition.",
+    url: "https://github.com/coderujwal3/Attendance_Management_System_Using_Face_Recognition",
     icon: BrainCircuit,
     featured: false,
     status: "ML experiments",

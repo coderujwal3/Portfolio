@@ -5,7 +5,7 @@ A responsive portfolio built with React, Vite, Tailwind CSS and a custom neumorp
 ## Stack
 
 - React + Vite
-- React Router for client-side page navigation
+- React Router framework mode for route configuration, static prerendering, and client-side navigation
 - Tailwind CSS 4 via the Vite plugin, with inline utility styling, CSS-first font tokens and a custom neumorphic design
 - Framer Motion for restrained reveal transitions
 - Lucide React icons
@@ -24,9 +24,9 @@ cp .env.example .env
 npm run dev
 ```
 
-Vite runs the frontend at `http://localhost:5173` and proxies `/api/*` to the local Express API on port `3001`. The contact form will only send successfully after the Resend and recipient environment variables are configured.
+React Router's Vite dev server runs the frontend at `http://localhost:5173` and proxies `/api/*` to the local Express API on port `3001`. The contact form will only send successfully after the Resend and recipient environment variables are configured.
 
-Build and inspect the static frontend:
+Build and inspect the prerendered static frontend:
 
 ```bash
 npm run build
@@ -52,7 +52,9 @@ npm run preview
 - `src/data/portfolio.js` — project, skill, experience and credential content
 - `src/hooks/` — reusable React hooks, including theme persistence
 - `src/services/` — API integration for the contact form
-- `src/App.jsx` — route definitions
+- `src/routes.js` — route definitions
+- `src/root.jsx` — document shell and root route
+- `react-router.config.ts` — framework settings and prerendered paths
 - `src/index.css` — Tailwind import and font tokens; component styles and responsive rules use Tailwind utilities in JSX
 - `server/contact-service.js` — shared validation and Resend email logic
 - `api/contact.js` — production Vercel endpoint

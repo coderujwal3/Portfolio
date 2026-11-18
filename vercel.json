@@ -1,11 +1,5 @@
 {
-  "rewrites": [
-    { "source": "/about", "destination": "/" },
-    { "source": "/skills", "destination": "/" },
-    { "source": "/experience", "destination": "/" },
-    { "source": "/projects", "destination": "/" },
-    { "source": "/contact", "destination": "/" }
-  ],
+  "outputDirectory": "build/client",
   "headers": [
     {
       "source": "/(.*)",

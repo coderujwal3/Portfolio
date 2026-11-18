@@ -4,27 +4,33 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "concurrently -k -n web,api -c blue,magenta \"vite --host 0.0.0.0\" \"node server/dev-server.js\"",
-    "dev:web": "vite --host 0.0.0.0",
+    "dev": "concurrently -k -n web,api -c blue,magenta \"react-router dev --host 0.0.0.0\" \"node server/dev-server.js\"",
+    "dev:web": "react-router dev --host 0.0.0.0",
     "dev:api": "node server/dev-server.js",
-    "build": "vite build",
-    "preview": "vite preview --host 0.0.0.0"
+    "build": "react-router build",
+    "preview": "vite preview --outDir build/client --host 0.0.0.0"
   },
   "dependencies": {
-    "@vitejs/plugin-react": "^4.3.4",
+    "@react-router/node": "^7.18.5",
+    "@vercel/analytics": "^2.0.1",
+    "@vercel/speed-insights": "^2.1.0",
     "concurrently": "^9.1.2",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "framer-motion": "^12.23.12",
+    "isbot": "^5.2.3",
     "lucide-react": "^0.468.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^7.18.4",
-    "resend": "^6.0.2",
-    "vite": "^6.0.7"
+    "resend": "^6.0.2"
   },
   "devDependencies": {
+    "@react-router/dev": "^7.6.2",
     "@tailwindcss/vite": "^4.3.3",
-    "tailwindcss": "^4.3.3"
+    "@vitejs/plugin-react": "^5.2.0",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^6.0.3",
+    "vite": "^6.2.7"
   }
 }

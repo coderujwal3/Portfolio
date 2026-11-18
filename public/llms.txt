@@ -3,12 +3,18 @@
 > Official portfolio of Ujwal Singh, an Artificial Intelligence and Machine Learning engineering student and developer in India. The site presents his technical skills, engineering projects, learning journey, credentials, and ways to make professional contact.
 
 ## Website
-- Homepage: https://ujwalsingh.tech/
-- About: https://ujwalsingh.tech/about
-- Skills: https://ujwalsingh.tech/skills
-- Experience and credentials: https://ujwalsingh.tech/experience
-- Projects: https://ujwalsingh.tech/projects
-- Contact: https://ujwalsingh.tech/contact
+- [Homepage]
+(https://ujwalsingh.tech/): Home Page of Portfolio, understand me breifly - my intro, my social media platforms, resume and contacting mail
+- [About]
+(https://ujwalsingh.tech/about): About Page of Portfolio, display about my brief information, my education, different domains of knowledge
+- [Skills]
+(https://ujwalsingh.tech/skills): Skills Page of Portfolio, displays my skills in different technology stacks and domains.
+- [Experience and credentials]
+(https://ujwalsingh.tech/experience): Experience Page of Portfolio, displays my experience in different fields that I had gained so far.
+- [Projects]
+(https://ujwalsingh.tech/projects): Projects Page of Portfolio, displays my both featured and big-projects that I had worked more harder, visit github to explore more projects. 
+- [Contact]
+(https://ujwalsingh.tech/contact): Contact page of Portfolio, you can contact me via mailing me, just fill the form and you will get response within 24-hours.
 
 ## Professional focus
 - Artificial Intelligence and Machine Learning
@@ -18,14 +24,16 @@
 - Python development, scripting, and automation
 
 ## Selected projects
-- ScamSentry AI: https://github.com/coderujwal3/ScamSentry-AI
-- Image-Forensic: https://github.com/coderujwal3/Image-Forensic
-- Phoenix Shell: https://github.com/hackedarea/phoenix-shell
-- Dhoomchhalle: https://github.com/coderujwal3/Dhoomchhalle
+- [ScamSentry AI](https://github.com/coderujwal3/ScamSentry-AI) — **AI + Security · Hackday build.** A Python CLI that inspects suspicious text and URLs using deterministic signals, explains social-engineering indicators, validates AI interpretations, and assigns an explainable risk band.
+- [Image-Forensic](https://github.com/coderujwal3/Image-Forensic) — **Digital Forensics · Open source.** A Python library focused on JPEG parsing and EXIF metadata extraction, with a clean API and forensic-minded reporting about what metadata can—and cannot—prove.
+- [Phoenix Shell](https://github.com/hackedarea/phoenix-shell) — **Developer Tools · Project.** A terminal-first shell project exploring command-line workflows and developer productivity.
+- [Dhoomchhalle](https://github.com/coderujwal3/Dhoomchhalle) — **Full-stack · Travel · In progress.** A traveler-focused platform concept to make local travel less confusing, bringing hotel discovery and useful destination information into one experience.
+- [SAMWAAD](https://github.com/coderujwal3/samwaad) — **Full-stack · College club project.** A web application for a college club that facilitates event management, member engagement, and communication, built using the MERN stack.
+- [Attendance Management System using Face Recognition](https://github.com/coderujwal3/Attendance_Management_System_Using_Face_Recognition) — **Artificial Intelligence · ML experiments.** A Python application that automates student attendance tracking using face recognition, OpenCV, and a Tkinter interface.
 
 ## Official profiles
-- GitHub: https://github.com/coderujwal3
-- YouTube: https://www.youtube.com/@Nthree3
+- [GitHub](https://github.com/coderujwal3) — Source code, open-source projects, small experiments, scripts, and works in progress.
+- [YouTube · N3 Network Node Neural](https://www.youtube.com/@Nthree3) — Ujwal Singh’s YouTube channel.
 
 ## Notes
 - Project status and experience details are described on the corresponding portfolio pages.
