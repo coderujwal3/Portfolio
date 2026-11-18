@@ -61,12 +61,12 @@ export default function ContactSection() {
           <span className="inline-block h-[7px] w-[7px] shrink-0 rounded-full bg-[#43b59e] shadow-[0_0_0_4px_rgba(67,181,158,0.12)] animate-pulse" />{" "}
           OPEN TO GOOD CONVERSATIONS
         </p>
-        <h2 className="mt-[21px] mb-[17px] max-w-[470px] text-[clamp(34px,4vw,48px)] leading-[1.13] tracking-[-0.065em] max-[720px]:max-w-[550px] max-[720px]:text-[40px]">
+        <h1 className="mt-[21px] mb-[17px] max-w-[470px] text-[clamp(34px,4vw,48px)] leading-[1.13] tracking-[-0.065em] max-[720px]:max-w-[550px] max-[720px]:text-[40px]">
           Have a problem worth{" "}
           <span className="bg-[linear-gradient(105deg,#5368df_5%,#7e76d9_47%,#38a997_100%)] bg-clip-text text-transparent">
             solving?
           </span>
-        </h2>
+        </h1>
         <p className="max-w-[420px] text-[12px] leading-[1.9] text-[var(--muted)]">
           Whether it’s a product idea, an AI/ML experiment, a web project or a
           security-minded discussion, send a note. Include enough context and
