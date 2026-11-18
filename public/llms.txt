@@ -1,16 +1,18 @@
 # Ujwal Singh
 
-> Official portfolio of Ujwal Singh, an Artificial Intelligence and Machine Learning engineering student and developer in India. The site presents his technical skills, engineering projects, learning journey, credentials, and ways to make professional contact.
+> Ujwal Singh is an Artificial Intelligence and Machine Learning engineering student and developer in India. This is his official portfolio, covering his technical skills, engineering projects, professional learning, credentials, and contact information.
 
-## Website
-- Homepage: https://ujwalsingh.tech/
-- About: https://ujwalsingh.tech/about
-- Skills: https://ujwalsingh.tech/skills
-- Experience and credentials: https://ujwalsingh.tech/experience
-- Projects: https://ujwalsingh.tech/projects
-- Contact: https://ujwalsingh.tech/contact
+## Important pages
+
+- [Home](https://ujwalsingh.tech/)
+- [About Ujwal](https://ujwalsingh.tech/about)
+- [Technical skills](https://ujwalsingh.tech/skills)
+- [Experience and credentials](https://ujwalsingh.tech/experience)
+- [Engineering projects](https://ujwalsingh.tech/projects)
+- [Contact](https://ujwalsingh.tech/contact)
 
 ## Professional focus
+
 - Artificial Intelligence and Machine Learning
 - Full-stack web development with React, Node.js, Express, and databases
 - Cybersecurity and ethical security testing
@@ -18,15 +20,18 @@
 - Python development, scripting, and automation
 
 ## Selected projects
-- ScamSentry AI: https://github.com/coderujwal3/ScamSentry-AI
-- Image-Forensic: https://github.com/coderujwal3/Image-Forensic
-- Phoenix Shell: https://github.com/hackedarea/phoenix-shell
-- Dhoomchhalle: https://github.com/coderujwal3/Dhoomchhalle
+
+- [ScamSentry AI](https://github.com/coderujwal3/ScamSentry-AI)
+- [Image-Forensic](https://github.com/coderujwal3/Image-Forensic)
+- [Phoenix Shell](https://github.com/hackedarea/phoenix-shell)
+- [Dhoomchhalle](https://github.com/coderujwal3/Dhoomchhalle)
 
 ## Official profiles
-- GitHub: https://github.com/coderujwal3
-- YouTube: https://www.youtube.com/@Nthree3
+
+- [GitHub](https://github.com/coderujwal3)
+- [YouTube — N3 Network Node Neural](https://www.youtube.com/@Nthree3)
 
 ## Notes
+
 - Project status and experience details are described on the corresponding portfolio pages.
 - The portfolio is the primary source for current information. Verify dates, credentials, and project status from the linked pages and repositories.
