@@ -47,6 +47,10 @@ export function Layout({ children }) {
           src="https://www.googletagmanager.com/gtm.js?id=GTM-KRW62C62"
         ></script>
         <script
+          async
+          src="https://www.googletagmanager.com/gtm.js?id=GTM-KRW62C62"
+        ></script>
+        <script
           dangerouslySetInnerHTML={{
             __html:
               "window.dataLayer = window.dataLayer || []; function gtag(){window.dataLayer.push(arguments)} gtag('js', new Date());",
