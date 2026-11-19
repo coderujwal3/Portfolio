@@ -1,13 +1,8 @@
-import {
-  Links,
-  Meta,
-  Outlet,
-  Scripts,
-} from "react-router";
+import { Links, Meta, Outlet, Scripts } from "react-router";
 import ScrollToTop from "./components/ScrollToTop.jsx";
 import SEO from "./components/SEO.jsx";
-import { SpeedInsights } from "@vercel/speed-insights/react"
-import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/react";
+import { Analytics } from "@vercel/analytics/react";
 import "./index.css";
 
 const structuredData = {
@@ -47,6 +42,16 @@ export function Layout({ children }) {
       className="scroll-smooth [scroll-padding-top:104px] max-[720px]:[scroll-padding-top:84px] [color-scheme:light] dark:[color-scheme:dark] motion-reduce:scroll-auto"
     >
       <head>
+        <script
+          async
+          src="https://www.googletagmanager.com/gtm.js?id=GTM-KRW62C62"
+        ></script>
+        <script>
+          window.dataLayer = window.dataLayer || []; function gtag()
+          {dataLayer.push(arguments)}
+          gtag('js', new Date());
+        </script>
+
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="theme-color" content="#e8edf4" />
@@ -73,10 +78,7 @@ export function Layout({ children }) {
           property="og:description"
           content="Explore Ujwal Singh's engineering portfolio, open-source projects, skills, experience, and work across AI/ML, full-stack development, and cybersecurity."
         />
-        <meta
-          property="og:image"
-          content="https://ujwalsingh.tech/ujwal.png"
-        />
+        <meta property="og:image" content="https://ujwalsingh.tech/ujwal.png" />
         <meta
           property="og:image:alt"
           content="Portrait of Ujwal Singh — AI/ML engineering student and developer"
@@ -101,7 +103,9 @@ export function Layout({ children }) {
           href="https://fonts.gstatic.com"
           crossOrigin="anonymous"
         />
-        <title>Ujwal Singh | AI/ML, Full-Stack Developer &amp; Cybersecurity</title>
+        <title>
+          Ujwal Singh | AI/ML, Full-Stack Developer &amp; Cybersecurity
+        </title>
         <Meta />
         <Links />
         <script
@@ -120,8 +124,8 @@ export function Layout({ children }) {
             <p>
               Welcome to the official portfolio of Ujwal Singh, a B.Tech
               Artificial Intelligence and Machine Learning engineering student
-              at Kashi Institute of Technology, affiliated with Dr. A.P.J.
-              Abdul Kalam Technical University in India.
+              at Kashi Institute of Technology, affiliated with Dr. A.P.J. Abdul
+              Kalam Technical University in India.
             </p>
             <p>
               Ujwal builds software across full-stack web development, applied
@@ -131,12 +135,24 @@ export function Layout({ children }) {
             </p>
             <nav aria-label="Portfolio pages">
               <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/about">About Ujwal</a></li>
-                <li><a href="/skills">Technical skills</a></li>
-                <li><a href="/experience">Experience and credentials</a></li>
-                <li><a href="/projects">Engineering projects</a></li>
-                <li><a href="/contact">Contact</a></li>
+                <li>
+                  <a href="/">Home</a>
+                </li>
+                <li>
+                  <a href="/about">About Ujwal</a>
+                </li>
+                <li>
+                  <a href="/skills">Technical skills</a>
+                </li>
+                <li>
+                  <a href="/experience">Experience and credentials</a>
+                </li>
+                <li>
+                  <a href="/projects">Engineering projects</a>
+                </li>
+                <li>
+                  <a href="/contact">Contact</a>
+                </li>
               </ul>
             </nav>
           </main>
