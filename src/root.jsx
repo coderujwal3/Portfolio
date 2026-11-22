@@ -62,7 +62,7 @@ export function Layout({ children }) {
         <meta name="theme-color" content="#e8edf4" />
         <meta
           name="description"
-          content="Ujwal Singh is an AI and Machine Learning engineering student, full-stack developer, and cybersecurity enthusiast in India. Explore his projects in AI, web development, digital forensics, and security."
+          content="Ujwal Singh is an AI/ML engineering student and developer in India, exploring full-stack development, cybersecurity, and digital forensics."
         />
         <meta name="author" content="Ujwal Singh" />
         <meta name="robots" content="index, follow, max-image-preview:large" />
@@ -118,7 +118,7 @@ export function Layout({ children }) {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
         />
       </head>
-      <body className="m-0 min-w-[320px] bg-[#e8edf4] font-manrope text-[#273248] antialiased [font-optical-sizing:auto] [font-synthesis:none] [text-rendering:optimizeLegibility] selection:bg-[#5268d9] selection:text-white transition-colors duration-[250ms] dark:bg-[#202631] dark:text-[#e8edf8]">
+      <body className="m-0 min-w-[320px] bg-[#e8edf4] font-manrope text-[#273248] antialiased [font-optical-sizing:auto] [font-synthesis:none] [text-rendering:optimizeLegibility] selection:bg-[#5268d9] selection:text-white transition-colors duration-250 dark:bg-[#202631] dark:text-[#e8edf8]">
         {children}
         <noscript>
           <main>

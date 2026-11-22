@@ -9,12 +9,12 @@ const pageMetadata = {
   '/': {
     title: 'Ujwal Singh | AI/ML, Full-Stack Developer & Cybersecurity',
     description:
-      'Ujwal Singh is an AI and Machine Learning engineering student, full-stack developer, and cybersecurity enthusiast in India. Explore his projects in AI, web development, digital forensics, and security.',
+      'Ujwal Singh is an AI/ML engineering student and developer in India, exploring full-stack development, cybersecurity, and digital forensics.',
   },
   '/about': {
     title: 'About Ujwal Singh | AI/ML Engineering Student & Developer',
     description:
-      'Learn about Ujwal Singh, his B.Tech in Artificial Intelligence and Machine Learning, engineering interests, technical journey, and approach to building useful and secure software.',
+      'Learn about Ujwal Singh’s AI/ML engineering studies, technical journey, and approach to building useful, secure software.',
   },
   '/skills': {
     title: 'Technical Skills | Ujwal Singh',
