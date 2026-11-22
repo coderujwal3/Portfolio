@@ -22,7 +22,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Submit sitemap URLs to IndexNow
+      - name: Validate sitemap and IndexNow key file
         env:
           SITE_URL: https://ujwalsingh.tech
         run: |
@@ -59,13 +59,23 @@ jobs:
           }
 
           async function main() {
+            const keyUrl = `${process.env.SITE_URL}/${keyFile}`;
+            const keyResponse = await fetch(keyUrl);
+            if (!keyResponse.ok) {
+              throw new Error(`IndexNow key file is not publicly reachable: HTTP ${keyResponse.status} at ${keyUrl}`);
+            }
+            const publishedKey = (await keyResponse.text()).trim();
+            if (publishedKey !== key) {
+              throw new Error('Public IndexNow key file content does not match the repository key.');
+            }
+
             const response = await fetch('https://api.indexnow.org/indexnow', {
               method: 'POST',
               headers: { 'Content-Type': 'application/json' },
               body: JSON.stringify({
                 host,
                 key,
-                keyLocation: `${process.env.SITE_URL}/${keyFile}`,
+                keyLocation: keyUrl,
                 urlList: validUrls,
               }),
             });
