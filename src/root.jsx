@@ -39,7 +39,7 @@ export function Layout({ children }) {
   return (
     <html
       lang="en"
-      className="scroll-smooth [scroll-padding-top:104px] max-[720px]:[scroll-padding-top:84px] [color-scheme:light] dark:[color-scheme:dark] motion-reduce:scroll-auto"
+      className="scroll-smooth scroll-pt-26 max-[720px]:scroll-pt-21 scheme:light dark:scheme:dark motion-reduce:scroll-auto"
     >
       <head>
         <script
